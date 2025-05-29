@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="plansource.utilities.ExtentListenerClass"></listener>
+	</listeners>
+  <test name="Test">
+    <classes>
+	  <class name="plansource.testcases.TC_NewEmployeeCreation"></class>
+      <class name="plansource.testcases.TC_NewEnrollment"/>
+      <class name="plansource.testcases.TC_SelectDiffPlans"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
