@@ -2,6 +2,7 @@
 Install eclipse IDE
 Install testNG from eclipse market and maven from google
 Add maven path to the environment variable
+Use log4j.properties and ExtentReports for logs and reports
 Convert testcases to TestNG
 run testNG.xml suite
 Add compiler and surefire plugins to run from maven
